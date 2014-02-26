@@ -1,0 +1,61 @@
+/* FILTER EXTENSION styles */
+/**************************************************************************/
+div.jtable-filter-panel {
+  border: 1px solid;
+  padding: 10px;
+}
+div.jtable-main-container-filtered {
+  border: 1px dashed orange;
+}
+
+div.ui-widget div.jtable-filter-panel {
+  border: 1px solid #B6B6B6;
+  border-top: 0;
+  border-bottom: 0;
+}
+div.jtable-filter-panel .ui-button {
+  margin-right: 5px;
+}
+
+div.jtable-input-field-container {
+  text-align: center;
+}
+table.jtable thead th.jtable-column-filter-header {
+  font-weight: normal;
+}
+
+table.jtable thead th.jtable-column-filter-header div.jtable-input-field-container {
+	padding: 3px 5px;
+  border-top: 1px solid #C8C8C8;
+}
+table.jtable thead th.jtable-column-filter-header div.jtable-input-field-container:first-child {
+  border-top: 0;
+}
+
+table.jtable thead th.jtable-column-filter-header div.jtable-input-field-container input,
+table.jtable thead th.jtable-column-filter-header div.jtable-input-field-container select,
+table.jtable thead th.jtable-column-filter-header div.jtable-input-field-container label {
+  /*width: 90%;*/
+  display: block;
+  margin: auto;
+}
+table.jtable thead th.jtable-column-filter-header {
+  vertical-align: bottom;
+}
+table.jtable thead th.jtable-column-filter-header div.jtable-input-field-container div.jtable-input-field-container-group {
+  display: inline-block;
+  width: 50%;
+}
+
+table.jtable .ui-icon.ui-icon-filter {
+  background-position: center;
+  background-image: url('/static/ui/images/wireframe/12/filter.png') !important;
+}
+table.jtable .ui-icon.ui-icon-filter-disable {
+  background-position: center;
+  background-image: url('/static/ui/images/wireframe/12/filter_disable.png') !important;
+}
+table.jtable .ui-icon.ui-icon-filter-clear {
+  background-position: center;
+  background-image: url('/static/ui/images/wireframe/12/filter_clear.png') !important;
+}
